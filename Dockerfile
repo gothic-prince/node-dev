@@ -1,9 +1,5 @@
 FROM node:latest
-RUN npm install jest -g
-RUN npm install eslint -g
-RUN npm install gulp -g
-RUN npm install gulp-cli -g
-RUN npm install babel -g
-RUN npm install browserify -g
-RUN npm install watchify -g
+RUN npm install -g jest
+RUN npm install -g eslint
+RUN npm install -g gulp-cli
 
